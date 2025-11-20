@@ -1,0 +1,42 @@
+html {
+  height: 100%;
+  width: 100%;
+}
+
+.listbutton {
+  position: absolute;
+  bottom: 10px;
+  right: 10px;
+}
+
+button {
+  font-size: 42px;
+  padding: 0px 0px;
+  border-radius: 200px;
+  width: 50px;
+  height: 50px;
+  color: white;
+  background-color: black;
+  border: none;
+}
+
+.hovercontainer {
+  
+}
+
+.hiddencontainer {
+  opacity: 0;
+  width: 10px;
+  height: 10px;
+}
+
+.hovercontainer:hover > .hiddencontainer {
+  opacity: 1;
+  background-color: red;
+}
+
+.center {
+  display: flex;
+  justify-content: center;
+  
+}
